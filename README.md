@@ -80,3 +80,27 @@ shows that p-value = 0.06072 > 0.05 (significance value). That means we **do not
 ![t-test3.png](t-test3.png)
 
 shows that p-value = 0.04168 < 0.05 (significance value). That means we **do** have sufficient evidence to  reject the null hypothesis, and we would state that lot3 *is statistically different* from the population mean of 1,500 pounds per square inch.
+
+
+
+### Study Design: MechaCar vs Competition
+
+Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+- What metric or metrics are you going to test?
+
+  *I am going to compare car accident data and see if MechaCar appears in car accidents more frequently than competitor(s). Additionally we may perform this analysis for each class.*
+
+- What is the null hypothesis or alternative hypothesis?
+
+  *Null hypothesis: There is no difference in frequency MechaCar accidents compared to competitor(s).*
+
+  *Alternative hypothesis: There is difference in frequency MechaCar accidents compared to competitor(s).*
+
+- What statistical test would you use to test the hypothesis? And why?
+
+  *I would use chi-squared test because it is designed to compare the distribution of frequencies across two groups.*
+
+- What data is needed to run the statistical test?
+
+  *US car accidents dataset containing car models and classes.*
