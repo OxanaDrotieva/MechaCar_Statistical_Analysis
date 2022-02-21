@@ -50,3 +50,33 @@ The MechaCar `Suspension_Coil.csv` dataset contains the results from multiple pr
   *The variance for all manufacturing lot is 62.29 which is less than 100 and meets the design specifications requirement.* 
 
   *When reviewing the data for each lot number, we find that there is significant difference between variances.  Lot1 variance is 0.98 and Lot2 variance is 7.47 which is much smaller than 100 pounds per square inch, but Lot3 variance is 170.28 which is way greater than 100 PSI and does not meet the design specification.*
+
+
+
+### T-Tests on Suspension Coils
+
+Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+- The overall manufacturing lot t-test statistics
+
+![t-test.png](t-test.png)
+
+shows that p-value = 0.06028 > 0.05 (significance value). That means we **do not** have sufficient evidence to reject the null hypothesis, and we would state that the all manufacturing lots *are statistically similar* to  the population mean of 1,500 pounds per square inch.
+
+- The manufacturing lot1 t-test statistics
+
+![t-test1.png](t-test1.png)
+
+shows that p-value = 1 > 0.05 (significance value). That means we **do not** have sufficient evidence to reject the null hypothesis, and we would state that lot1 *is statistically similar* to the population mean of 1,500 pounds per square inch.
+
+- The manufacturing lot2 t-test statistics
+
+![t-test2.png](t-test2.png)
+
+shows that p-value = 0.06072 > 0.05 (significance value). That means we **do not** have sufficient evidence to reject the null hypothesis, and we would state that lot2 *is statistically similar* to the population mean of 1,500 pounds per square inch.
+
+- The manufacturing lot3 t-test statistics
+
+![t-test3.png](t-test3.png)
+
+shows that p-value = 0.04168 < 0.05 (significance value). That means we **do** have sufficient evidence to  reject the null hypothesis, and we would state that lot3 *is statistically different* from the population mean of 1,500 pounds per square inch.
